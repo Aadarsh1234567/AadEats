@@ -1,0 +1,109 @@
+html {
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  width: 100vw;
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url(home-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.home-top ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+}
+.home-top ul li a {
+  text-decoration: none;
+  color: white;
+}
+.home-top ul li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid rgb(216, 18, 18);
+}
+
+.home-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-main img {
+  width: 20%;
+  height: 20%;
+}
+
+.home-main p {
+  font-size: 30px;
+}
+
+.location {
+  font-size: 15px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.218);
+  color: white;
+  position: relative;
+  width: 50%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.location svg {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+
+.border {
+  width: 100vw;
+  height: 2vh;
+  background-color: rgb(216, 155, 155);
+  margin: 0;
+  padding: 0;
+}
+
+.section1 {
+  background-color: rgb(65, 61, 61);
+  color: rgb(233, 217, 217);
+  margin: 0;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.section1 img {
+  width: 75%;
+  height: 75%;
+}
+
+.section1 h1 {
+  font-size: 50px;
+}
+
+.section1 p {
+  font-size: 20px;
+}
