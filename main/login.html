@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login to AadEats</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        background-image: url(loginbg.webp);
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        filter: blur(10px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      .form {
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        bottom: 20%;
+        left: 35%;
+        height: 55%;
+        width: 25%;
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 15px;
+        color: white;
+        border-radius: 10px;
+      }
+      .form img {
+        width: 28%;
+        height: 30%;
+      }
+      input {
+        color: white;
+      }
+      .field {
+        width: 50%;
+        padding: 10px;
+        border: none;
+
+        background-color: rgba(240, 248, 255, 0.856);
+        border-radius: 5px;
+      }
+      .sigin {
+        margin-top: 20px;
+        padding: 10px;
+        background: none;
+        border: none;
+        font-size: 18px;
+      }
+      .check {
+        padding: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container"></div>
+    <div class="form">
+      <h1>Hungry?</h1>
+      <img src="logo.png" alt="" />
+      <p>Email</p>
+      <input placeholder="Enter Email" type="email" class="field" />
+      <p>Password</p>
+      <input placeholder="Enter Password" type="password" class="field" />
+      <input type="submit" value="Log in" class="sigin"  />
+      <p><input type="checkbox" class="check" />Remember Me</p>
+    </div>
+  </body>
+</html>
